@@ -2,20 +2,18 @@
     width: 600px;
     margin-left: auto;
     margin-right: auto;
-    background: rgb(146, 223, 233);
-
+    background: rgb(232, 232, 233);
 }
 
-h1{
+h1 {
     text-align: center;
-    background: rgb(204, 135, 221);
-    color: rgb(172, 24, 185);
+    background: rgb(152, 198, 241);
+    color: rgb(184, 235, 66);
 }
 
 ul {
     text-align: center;
     padding: 0px;
-
 }
 
 li {
@@ -24,16 +22,15 @@ li {
 
 .speles_lauk {
     width: 500px;
-    background: rgb(222, 49, 238);
+    background: black;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
-
 }
 
 .bloks {
     display: inline-block;
-    background: rgb(146, 223, 233);
+    background: rgb(235, 113, 113);
     width: 100px;
     height: 100px;
     margin: 5px;
@@ -41,21 +38,26 @@ li {
 }
 
 a {
-    background-color: rgb(204, 135, 221);
-    color: rgb(172, 24, 185);
-    border: 2px solid rgb(172, 24, 185);
-    padding: 10px 20px;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-  
-  a:hover {
-    background-color: white;
-    color: rgb(204, 135, 221);
-  }
-
-  a:active {
-    background-color: rgb(172, 24, 185);
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    transition: background-color 0.3s, transform 0.2s;
+    background-color: #007BFF;
     color: white;
-  }
+    border: 2px solid #0056b3;
+}
+
+a:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+a:active {
+    background-color: #007BFF;
+    color: rgb(178, 236, 130);
+    transform: scale(1.05);
+}
