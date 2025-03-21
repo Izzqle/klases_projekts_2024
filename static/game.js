@@ -61,8 +61,12 @@ function veiktGajienu(bloks, emoji) {
       } else {
           //ja atvērtie 2 laukumi nav vienādi
           setTimeout(() => {
-            pirmais.bloks.innerText = ""
-          })
+            pirmais.bloks.innerText = "";
+            otrais.bloks.innerText = "";
+            pirmais.bloks.classList.remove("atverts");
+            otrais.bloks.classList.remove("atverts");
+            pedejieDivi = [];
+          }, 1000);
       }
    }
 }
