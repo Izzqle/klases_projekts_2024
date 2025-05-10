@@ -11,3 +11,4 @@ else:
     cursor.execute('DELETE FROM rezultati WHERE id = ?, (id_dzest)')
     conn.commit()
     print(f'Ieraksts ar ID-{id_dzest} tika izdzēsts.')
+conn.close()
